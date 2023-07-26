@@ -2,6 +2,9 @@
 /* global vars in root [start] */
 :root{
     --bg-color:#fff;
+    --text-color: #282b30;
+    --shadow-image: 0 0 1px rgba(40,43,48,.4), 0 1px 4px rgba(40,43,48,.1);
+    --shadow-icon: 0 0 0 1px rgba(90,90,246,.2);
 }
 /* global vars in root [end] */
 /* add fonts */
@@ -48,5 +51,58 @@
 /* container styles */
 #container{
     background-color: var(--bg-color);
-    width: 50vw;
+    margin: 0 auto;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+}
+/* header styles */
+header{
+    padding: 38px 60px 30px;
+    position: relative;
+}
+/* some style to profile image */
+header>img{
+    border-radius: 50%;
+    box-shadow: var(--shadow-image);
+    display: block;
+}
+/* some style to heading ,font size.. */
+header>h1{
+    padding: 32px 0px 24px;
+    font-weight: 700;
+    font-size: 32px;
+}
+/* some style to Introduction first paragraph */
+header>p:first-of-type{
+    font-size: 22px;
+    line-height: 1.6;
+}
+/* some style to Introduction seccond paragraph */
+header>p:last-of-type{
+    font-size: 22px;
+    line-height: 1.6;
+    margin-top: 24px;
+}
+/* style to icons contact with me */
+header>ul{
+    display: flex;
+    margin: 30px 0 0;
+}
+/* list items of ul */
+header>ul>li{
+    margin: 10px;
+}
+/* change icon styles */
+header>ul>li>a{
+    border-radius: 50%;
+    box-shadow: var(--shadow-icon);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
