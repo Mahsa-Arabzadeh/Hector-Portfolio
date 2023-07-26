@@ -1,4 +1,9 @@
 /* GENERAL CSS [START] */
+/* global vars in root [start] */
+:root{
+    --bg-color:#fff;
+}
+/* global vars in root [end] */
 /* add fonts */
 @font-face {
     font-family: Barlow;
@@ -30,7 +35,7 @@
     src: url(fonts/Barlow-Black.ttf);
     font-weight: 900;
 }
-/* all of elements */
+/* general stuff */
 *{
     font-family: Barlow;
     padding: 0;
@@ -40,3 +45,8 @@
     text-decoration: none;
 }
 /* GENERAL CSS [END] */
+/* container styles */
+#container{
+    background-color: var(--bg-color);
+    width: 50vw;
+}
