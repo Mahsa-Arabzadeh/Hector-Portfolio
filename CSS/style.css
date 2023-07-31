@@ -1,5 +1,5 @@
 /* container styles */
-.container{
+.container {
     background-color: var(--bg-color);
     margin: 0 auto;
     max-width: 1000px;
@@ -10,95 +10,115 @@
     color: var(--text-color);
     background-color: var(--bg-color);
 }
+
 /* header styles */
-header{
+header {
     padding: 38px 60px 30px;
     position: relative;
 }
+
 /* some style to profile image */
-header>img{
+header>img {
     border-radius: 50%;
     box-shadow: var(--shadow-image);
     display: block;
 }
+
 /* some style to heading ,font size.. */
-header>h1{
+header>h1 {
     padding: 32px 0px 24px;
     font-weight: 700;
     font-size: 32px;
 }
+
 /* some style to Introduction first paragraph */
-header>p:first-of-type{
+header>p:first-of-type {
     font-size: 22px;
     line-height: 1.6;
 }
+
 /* some style to Introduction seccond paragraph */
-header>p:last-of-type{
+header>p:last-of-type {
     font-size: 22px;
     line-height: 1.6;
     margin-top: 24px;
 }
+
 /* style to icons contact with me */
-header>ul{
+header>ul {
     display: flex;
     margin: 30px 0 0;
 }
+
 /* list items of ul */
-header>ul>li{
+header>ul>li {
     margin: 10px;
 }
+
 /* change icon styles */
-header>ul>li>a{
+header>ul>li>a {
     border-radius: 50%;
     box-shadow: var(--shadow-icon);
     padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all .3s;
+}
+/* icons(connect with me) hover in header */
+header>ul>li>a:hover{
+    background-color: #5a5af614;
 }
 /* header styles [end] */
 /* main codes styles [start] */
 /* some styles to section of main */
-main>section{
+main>section {
     padding: 0 60px 40px;
 }
+
 /* some style to heading of section */
-main>section>h1{
+main>section>h1 {
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 6px;
 }
+
 /* some style to Explanation paragraph about projects */
-main>section>p{
+main>section>p {
     margin-bottom: 30px;
     font-size: 18px;
 }
-/* home project set display to grid */
-.project-num{
+
+/* item projects set display to grid */
+.project-item {
     display: grid;
     grid-template-columns: 1fr;
 }
+
 /* some styles to All project divs */
-.my-project .project-num{
+.my-project a {
     text-align: center;
     box-shadow: var(--shadow-image);
     background-color: var(--cream-color);
     border-radius: 20px;
     margin: 10px;
-    height: 230px;
+    height: 230px; /* vaghti bekhaym img bezarim bayad ino hazf konim ke card hamon abade img ro begire.*/
 }
+
 /* main codes styles [end] */
 /* footer codes styles [start] */
-footer{
+footer {
     padding: 50px 0 60px;
     background-color: var(--cream-color);
     box-shadow: var(--shadow-inset);
 }
+
 /* style to copyright */
-#footer-part{
+#footer-part {
     padding: 0 60px;
     font-size: 16px;
     max-width: 1000px;
     margin: 0 auto;
 }
+
 /* footer codes styles [end] */

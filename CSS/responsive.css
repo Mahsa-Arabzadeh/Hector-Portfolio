@@ -1,6 +1,5 @@
 [class ^= "col-"]{
     float: right;
-    /* padding: 10px; */
 }
 .row::after{
     content: "";
