@@ -90,7 +90,7 @@ main>section>p{
 /* main codes styles [end] */
 /* footer codes styles [start] */
 footer{
-    padding: 30px 0 40px;
+    padding: 50px 0 60px;
     background-color: var(--cream-color);
     box-shadow: var(--shadow-inset);
 }
