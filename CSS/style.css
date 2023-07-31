@@ -74,19 +74,18 @@ main>section>p{
     font-size: 18px;
 }
 /* home project set display to grid */
-.my-project{
+.project-num{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr;
 }
-/* some styles to All project divs and set display to flex */
-.my-project>div{
-    display: flex;
+/* some styles to All project divs */
+.my-project .project-num{
     text-align: center;
     box-shadow: var(--shadow-image);
     background-color: var(--cream-color);
     border-radius: 20px;
-    height: 278px;
+    margin: 10px;
+    height: 230px;
 }
 /* main codes styles [end] */
 /* footer codes styles [start] */
