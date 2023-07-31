@@ -4,7 +4,6 @@
 .row::after{
     content: "";
     clear: both;
-    display: table;
 }
 @media screen and (max-width: 576px){
     .col-xs-1{width: 8.33%;}
