@@ -78,11 +78,18 @@ main>section>p {
     margin-bottom: 30px;
     font-size: 18px;
 }
-/* item projects set display to grid */
-.project-item {
+/* my project set display to grid */
+.my-project{
     display: grid;
-    grid-template-columns: 1fr;
-}
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .project-item{
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    width: 100%;
+  }
 /* some styles to All project divs */
 .my-project a {
     text-align: center;
