@@ -82,23 +82,21 @@ main>section>p {
 .my-project{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
   }
+  /* project item styles set display to flex */
   .project-item{
     display: flex;
     align-items: stretch;
     text-align: center;
     width: 100%;
-  }
-/* some styles to All project divs */
-.my-project a {
     text-align: center;
     box-shadow: var(--shadow-image);
     background-color: var(--cream-color);
     border-radius: 20px;
-    margin: 10px;
-    height: 230px; /* vaghti bekhaym img bezarim bayad ino hazf konim ke card hamon abade img ro begire.*/
-}
+    cursor: pointer;
+    height: 200px; /* agar bekhaym img bezarim bayad ino delete konim.*/
+  }
 /* main codes styles [end] */
 /* footer codes styles [start] */
 footer {
