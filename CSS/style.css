@@ -78,12 +78,14 @@ main>.container {
 main>.container>h1 {
     font-size: 21px;
     font-weight: 500;
+    padding: 0;
     margin-bottom: 6px;
 }
 /* some style to Explanation paragraph about projects */
 main>.container>p {
     margin-bottom: 30px;
     font-size: 18px;
+    margin-top: 0 !important;
 }
 /* my project set display to grid */
 .my-project{
