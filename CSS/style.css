@@ -1,5 +1,5 @@
-/* container styles */
-.container {
+/* header styles [start]*/
+header {
     background-color: var(--bg-color);
     margin: 0 auto;
     max-width: 1000px;
@@ -8,47 +8,46 @@
     justify-content: center;
     line-height: 1.6;
     color: var(--text-color);
-    background-color: var(--bg-color);
 }
-/* header styles */
-header {
+/* contaienr styles */
+.container {
     padding: 38px 60px 30px;
     position: relative;
 }
 /* some style to profile image */
-header>img {
+.container .profile{
     border-radius: 50%;
     box-shadow: var(--shadow-image);
     display: block;
 }
 /* some style to heading ,font size.. */
-header>h1 {
+.container>h1 {
     padding: 32px 0px 24px;
     font-weight: 700;
     font-size: 32px;
 }
 /* some style to Introduction first paragraph */
-header>p:first-of-type {
+.container>p:first-of-type {
     font-size: 22px;
     line-height: 1.6;
 }
 /* some style to Introduction seccond paragraph */
-header>p:last-of-type {
+.container>p:last-of-type {
     font-size: 22px;
     line-height: 1.6;
     margin-top: 24px;
 }
 /* style to icons contact with me */
-header>ul {
+.container .contact {
     display: flex;
     margin: 30px 0 0;
 }
-/* list items of ul */
-header>ul>li {
+/* list items(icons) of contact */
+.container>.contact>li {
     margin: 10px;
 }
 /* change icon styles */
-header>ul>li>a {
+.container>.contact>li>a {
     border-radius: 50%;
     box-shadow: var(--shadow-icon);
     padding: 10px;
@@ -58,23 +57,31 @@ header>ul>li>a {
     transition: all .3s;
 }
 /* icons(cntact with me) hover in header */
-header>ul>li>a:hover{
+.container>.contact>li>a:hover{
     background-color: #5a5af614;
 }
 /* header styles [end] */
 /* main codes styles [start] */
-/* some styles to section of main */
-main>section {
+/* some styles to container of main */
+main>.container {
     padding: 0 60px 40px;
+    background-color: var(--bg-color);
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.6;
+    color: var(--text-color);
 }
-/* some style to heading of section */
-main>section>h1 {
+/* some style to heading of main container */
+main>.container>h1 {
     font-size: 21px;
     font-weight: 500;
     margin-bottom: 6px;
 }
 /* some style to Explanation paragraph about projects */
-main>section>p {
+main>.container>p {
     margin-bottom: 30px;
     font-size: 18px;
 }
