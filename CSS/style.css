@@ -22,22 +22,16 @@ header {
     width: 100px;
     height: 100px;
 }
-/* some style to heading ,font size.. */
-.container>h1 {
+/* some style to introduction heading */
+.container .Introduction-heading{
     padding: 25px 0px 24px;
     font-weight: 700;
     font-size: 32px;
 }
-/* some style to Introduction first paragraph */
-.container>p:first-of-type {
+/* some style to Introduction paragraph */
+.container>p{
     font-size: 22px;
     line-height: 1.6;
-}
-/* some style to Introduction seccond paragraph */
-.container>p:last-of-type {
-    font-size: 22px;
-    line-height: 1.6;
-    margin-top: 24px;
 }
 /* style to icons contact with me */
 .container .contact {
@@ -74,7 +68,7 @@ header {
 /* header styles [end] */
 /* main codes styles [start] */
 /* some styles to container of main */
-main>.container {
+main>.container{
     padding: 0 60px 40px;
     background-color: var(--bg-color);
     margin: 0 auto;
@@ -86,7 +80,7 @@ main>.container {
     color: var(--text-color);
 }
 /* some style to heading of main container */
-main>.container>h1 {
+main>.container>.title-main{
     font-size: 21px;
     font-weight: 500;
     padding: 0;
