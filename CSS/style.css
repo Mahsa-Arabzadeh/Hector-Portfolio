@@ -93,7 +93,7 @@ main>.container>h1 {
     margin-bottom: 6px;
 }
 /* some style to Explanation paragraph about projects */
-main>.container>p {
+main>.container>.Projects-Explanation{
     margin-bottom: 30px;
     font-size: 18px;
     margin-top: 0 !important;
